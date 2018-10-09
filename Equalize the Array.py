@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+b = set(a)
+c = list(a.count(i) for i in b )
+print(sum(c) - max(c))
