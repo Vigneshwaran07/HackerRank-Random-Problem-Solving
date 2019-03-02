@@ -9,3 +9,4 @@ for _ in range(int(input())):
         wrap = wrap-(m*(cureat))
         wrap += cureat
     print(eat)
+ 
